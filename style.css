@@ -22,7 +22,7 @@ a,p,button,h2{
 }
 
 main {
-    
+    display: flex;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
     box-shadow: 8px 10px 0 2px;
@@ -96,9 +96,28 @@ section div.author p {
     color:hsl(0, 0%, 7%);
 }
 
+@media only screen and (max-device-width:375px){
+    main {
+        height: 501px;
+        width: 327px;
+
+ }
+
+    section button {
+  
+    height: 73px;
+  
+    
+
+}
+    main  img{
+    height: 200px;
+    width: 279px;  
+}
+}
 
 
-@media only screen and (min-width:375px) and (max-width:1440px) {
+@media only screen and (min-width:376px) and (max-width:1440px) {
      main {
             height: 522px;
             width: 384px;
@@ -108,25 +127,4 @@ section div.author p {
 
 
 
-@media only screen and (max-width:375px) {
-    section {
-        height: 501px;
-        width: 327px;
-
- }
-
-    section button {
-  
-    height: 73px;
-    width: 26px;
-    
-
-}
-
-    main  img{
-    height: 200px;
-    width: 279px;
-    
-}
-}
 
