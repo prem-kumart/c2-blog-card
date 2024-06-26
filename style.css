@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@800&display=swap');
+
+
+body {
+   
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree", sans-serif;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+a,p,button,h2{
+    margin: 0px;
+}
+
+
+div.blog-card {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 8px 10px 0 2px;
+  
+}
+
+
+
+div.blog-card div.blog-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 24px;
+}
+
+div.blog-card div.blog-content img{
+    border-radius: 10px;
+    margin: 0px;
+    
+}
+
+
+div.blog-content button {
+     background-color:hsl(47, 88%, 63%) ;
+     border: none;
+     height: 29px;
+     width: 82px;
+     border-radius: 4px;
+     font-size: 14px;
+     font-weight: 800;
+     margin: 0px;
+}
+
+div.blog-content a {
+    text-decoration: none;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+    
+}
+
+div.blog-content h2 {
+   font-size: 24px;
+    
+}
+div.blog-content a:hover {
+    color:hsl(47, 88%, 63%)
+}
+
+div.blog-content div.author {
+    display: flex;
+    gap: 12px;
+    
+}
+
+div.blog-content div.author img {
+    height: 32px;
+    width: 32px
+
+}
+
+div.blog-content p {
+   color: hsl(0, 0%, 50%);
+
+}
+
+div.blog-content div.author p {
+   
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;
+ 
+
+}
+
+@media only screen and (min-width:375px) and (max-width:1440px) {
+     div.blog-card {
+            height: 522px;
+            width: 384px;
+
+     }
+}
+
+@media only screen and (max-width:375px) {
+    div.blog-card {
+        height: 501px;
+        width: 327px;
+
+ }
+
+    div.blog-content button {
+  
+    height: 73px;
+    width: 26px;
+    
+
+}
+
+
+div.blog-card  img{
+    height: 200px;
+    width: 279px;
+    
+}
+}
+
