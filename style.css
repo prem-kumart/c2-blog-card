@@ -118,7 +118,7 @@ section div.author p {
 }
 
 
-@media only screen and (min-width:376px) and (max-width:1440px) {
+@media only screen and (min-width:376px) and (max-width:1920px) {
      main {
             height: 522px;
             width: 384px;
